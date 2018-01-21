@@ -176,6 +176,88 @@ li a {
         padding: 30px;
     }
 }
+
+/*====================================*/
+@media(min-width:1024px) {
+    
+/*======================================*/
+    body{
+        background: yellow;
+    }
+    
+    .main-header h1 {
+        float: left;
+        display: inline;
+        width: 40%;
+    }
+    header {
+        display: block;
+    }
+    #nav{
+        display: inline;
+        width:40%;
+        float:right;
+/*        margin-right: 0;*/
+/*        margin-left: 0;   */
+    }
+    
+   li{
+        float:left;
+        display: inline-block;
+    }
+    ul{
+        float: right;
+    }
+    
+/*   ERROR SOME WHERE IN HERE */
+        .port-1{
+        width: 33.3%;
+        float:left;
+        padding: 10px;
+        iu
+    }
+    
+    .port-2{
+        width: 33.3%;
+        float: left;
+        padding: 10px;
+    }
+    
+    .port-3{
+        width: 33.3%;
+        float:right;
+        padding: 10px;
+    }
+    
+    .port-4{
+        width: 33.3%;
+        float: left;
+        padding: 10px;
+    
+    }
+    
+    .port-5{
+        width: 33.3%;
+        float: left;
+        padding: 10px;
+    }
+    
+    .port-6{
+        width: 33.3%;
+        float: right;
+        padding: 10px;
+    }
+/* ============================   */
+    .second-container {
+        position: relative;
+    }
+    
+    footer p {
+        padding: 30px;
+    }
+    
+}
+
 /*===================================*/
 /*-------Clearfix---------*/
 
