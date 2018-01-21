@@ -103,8 +103,16 @@ li a {
     .second-container {
     display: block;
 }
-    .porfolio {
+    .port-1 {
         width: 50%;
+        display: inline-block;
+        float:left;
+    }
+    .port-2 {
+        width: 50%;
+        display: inline-block;
+        float: right;
+       
     }
 
     
