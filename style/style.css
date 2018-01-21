@@ -75,7 +75,37 @@ li a {
         display: inline-block;
         margin-right: 100px;    
     }
-
+    
+    li a {
+        background: #f9f9f9 ;
+        padding: 20px;
+    }
+    
+    .main-content img{
+    width:40%;
+    float: right;
+    display: block;
+}
+    
+    .main-content p{
+        width: 50%;
+        display: inline-block; 
+        text-align: left;
+        font-size: 1.5em;
+        margin-top: 0;
+    } 
+    
+    .main-content{
+        margin-bottom: 50px;
+        display: inline-block;
+    }
+    
+    .second-container {
+    display: block;
+}
+    .porfolio {
+        width: 50%;
+    }
 
     
 }
