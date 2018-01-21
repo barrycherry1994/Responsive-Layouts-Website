@@ -105,9 +105,6 @@ li a {
 ======================================*/
 @media(min-width:768px){
 /*====================================*/
-    body{
-        background: purple;
-    }
    
     li {
         text-align: center;
@@ -181,10 +178,7 @@ li a {
 @media(min-width:1024px) {
     
 /*======================================*/
-    body{
-        background: yellow;
-    }
-    
+
     .main-header h1 {
         float: left;
         display: inline;
