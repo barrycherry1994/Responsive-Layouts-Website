@@ -33,16 +33,22 @@ body{
 .main-header li{
     list-style: none;
     margin-left: -40px;
+    display: block;
+}
+
+nav {
+    display: block;
+    width: 100%;
 }
 
 li a {
     background: white;
     color: black;
     font-weight: bolder;
-    display: block;
+    display:block;
     text-decoration: none;
     padding: 10px;
-    margin-bottom: 5px;   
+    margin-bottom: 5px;
 }
 
 .contact {
@@ -62,11 +68,15 @@ li a {
 /*====================================
             Media Queries
 ======================================*/
-
 @media(min-width:768px){
     body{
         background: purple;
     }
+    
+    nav {
+        display: inline-block;
+    }
+    
     ul {
         display: inline-block;
         margin-left: 100px;
@@ -79,6 +89,7 @@ li a {
     li a {
         background: #f9f9f9 ;
         padding: 20px;
+        display: inline-block;
     }
     
     .main-content img{
@@ -115,5 +126,27 @@ li a {
        
     }
 
+    .port-3 {
+        width: 50%;
+        display: inline-block;
+        float:left;
+    }
+    .port-4 {
+        width: 50%;
+        display: inline-block;
+        float: right;
+       
+    }
     
+    .port-5 {
+        width: 50%;
+        display: inline-block;
+        float:left;
+    }
+    .port-6 {
+        width: 50%;
+        display: inline-block;
+        float: right;
+       
+    }
 }
