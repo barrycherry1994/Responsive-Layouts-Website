@@ -25,6 +25,10 @@ body{
 .portfolio img {
     width: 100%;
 }
+.main-content p,
+.portfolio p {
+    margin: 15px;
+}
 /*Navigation Menu*/
 .main-header li{
     list-style: none;
@@ -38,6 +42,20 @@ li a {
     display: block;
     text-decoration: none;
     padding: 10px;
-    margin-bottom: 5px;
-    
+    margin-bottom: 5px;   
+}
+
+.contact {
+    padding-bottom: 50px;
+    border-bottom: 1px solid lightgray;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.main-footer p{
+    display: inline-block;
 }
