@@ -5,9 +5,20 @@
 body{
     background: gainsboro;
     font-family: 'Muli', sans-serif;
-    text-align: center;
 }
 
+/*------------Header---------------*/
+header h1 {
+    text-align: center;
+}
+ul {
+    list-style: none;
+    display: block;
+    text-align: center;
+}
+/*===============================*/
+
+/*----------containers-----------*/
 .container {
     margin:-20px 20px;
     padding: 20px;
@@ -15,22 +26,34 @@ body{
 }
 .second-container {
     background: white;
-    margin: 40px -20px;
+    margin: 0px -20px 0px;
     padding: 20px;
 }
-.main-content img{
-    width:70%;
+/*===============================*/
+
+/*-----------images--------------*/
+.main-content img {
+    width: 50%;
+    display: inline-block;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .portfolio img {
     width: 100%;
 }
+/*================================*/
+
+/*--------Portfolio Layout--------*/
+.portfolio {
+    text-align: center;
+}
+
 .main-content p,
 .portfolio p {
     margin: 15px;
 }
-/*Portfolio Layout*/
-
+/*===============================*/
 }
 /*Navigation Menu*/
 .main-header li{
@@ -43,11 +66,7 @@ nav {
     display: block;
     width: 100%;
 }
-ul {
-    list-style: none;
-    display: block;
-    margin-left: -40px;
-}
+
 li a {
     background: white;
     color: black;
@@ -57,10 +76,11 @@ li a {
     padding: 10px;
     margin-bottom: 5px;
 }
-
+/*------Contact Information--------*/
 .contact {
     padding-bottom: 50px;
     border-bottom: 1px solid lightgray;
+    text-align: center;
 }
 
 .contact a {
@@ -68,14 +88,34 @@ li a {
     color: black;
     font-weight: bolder;
 }
+/*===============================*/
+
+/*------Contact Information--------*/
 
 .main-footer p{
     display: inline-block;
 }
+.top {
+    float:right;
+}
+/*================END===============*/
+
 /*====================================
             Media Queries
 ======================================*/
 @media(min-width:768px){
+/*====================================*/
     body{
         background: purple;
     }
+   
+    li {
+        text-align: center;
+        display: inline-block;
+        background: #f9f9f9;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+/*===================================*/
+}
