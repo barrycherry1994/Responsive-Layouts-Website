@@ -34,9 +34,12 @@ article,
 aside,
 footer,
 header,
-nav,
 section {
   display: block;
+}
+
+nav{
+ display: inline-block;
 }
 
 /**

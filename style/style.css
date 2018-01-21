@@ -59,3 +59,23 @@ li a {
 .main-footer p{
     display: inline-block;
 }
+/*====================================
+            Media Queries
+======================================*/
+
+@media(min-width:768px){
+    body{
+        background: purple;
+    }
+    ul {
+        display: inline-block;
+        margin-left: 100px;
+    }
+    ul li{
+        display: inline-block;
+        margin-right: 100px;    
+    }
+
+
+    
+}
