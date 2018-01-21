@@ -116,6 +116,71 @@ li a {
         margin-left: 20px;
         margin-right: 20px;
     }
+    li a {
+        background: #f9f9f9;
+    }
+    
+/*==========Main Content=============*/
+    .main-content {
+        display: inline-block;
+        margin-bottom: 50px;
+    }
+    .main-content img {
+        display: inline;
+        width:40%;
+        margin: 0;
+        float: right;
+    }
+    .main-p {
+        display: inline-block;
+        width:40%;
+        font-size: 24px;
+    }
+    
+    .port-1{
+        width: 47.6%;
+        float:left;
+    }
+    
+    .port-2{
+        width: 47.6%;
+         float: right;
+    }
+    
+    .port-3{
+        width: 47.6%;
+        float:left;
+    }
+    
+    .port-4{
+        width: 47.6%;
+        float: right;
+    
+    }
+    
+    .port-5{
+        width: 47.6%;
+        float: left;
+    }
+    
+    .port-6{
+        width: 47.6%;
+        float: right;
+    }
+    
+    .second-container {
+        position: relative;
+    }
+    
+    footer p {
+        padding: 30px;
+    }
 }
 /*===================================*/
+/*-------Clearfix---------*/
+
+.clearfix::after {
+    content:"";
+    display: table;
+    clear:both;
 }
