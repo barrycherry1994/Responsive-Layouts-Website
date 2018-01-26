@@ -120,6 +120,10 @@ footer nav{
         background: #f9f9f9;
     }
     
+    a:hover{
+        color: darkgoldenrod;
+    }
+    
 /*==========Main Content=============*/
     .main-content {
         display: inline-block;
@@ -178,8 +182,7 @@ footer nav{
 }
 
 /*====================================*/
-@media(min-width:1024px) {
-    
+@media(min-width:1024px) {   
 /*======================================*/
 
     .main-header h1 {
@@ -194,8 +197,6 @@ footer nav{
         display: inline;
         width:40%;
         float:right;
-/*        margin-right: 0;*/
-/*        margin-left: 0;   */
     }
     
    li{
@@ -206,7 +207,6 @@ footer nav{
         float: right;
     }
     
-/*   ERROR SOME WHERE IN HERE */
         .port-1{
         width: 33.3%;
         float:left;
@@ -230,7 +230,6 @@ footer nav{
         width: 33.3%;
         float: left;
         padding: 10px;
-    
     }
     
     .port-5{
@@ -246,7 +245,7 @@ footer nav{
     }
     
     
-/* ============================   */
+/* ===============================*/
     .second-container {
         position: relative;
     }
