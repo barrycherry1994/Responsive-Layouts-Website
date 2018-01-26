@@ -54,7 +54,7 @@ ul {
     margin: 15px;
 }
 /*===============================*/
-}
+
 /*Navigation Menu*/
 .main-header li{
     list-style: none;
@@ -211,7 +211,6 @@ footer nav{
         width: 33.3%;
         float:left;
         padding: 10px;
-        iu
     }
     
     .port-2{
