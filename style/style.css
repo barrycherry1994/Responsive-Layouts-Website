@@ -90,8 +90,11 @@ li a {
 }
 /*===============================*/
 
-/*------Contact Information--------*/
-
+/*------Footer--------*/
+footer nav{
+   visibility: hidden;
+    display: none;
+}
 .main-footer p{
     display: inline-block;
 }
@@ -241,6 +244,8 @@ li a {
         float: right;
         padding: 10px;
     }
+    
+    
 /* ============================   */
     .second-container {
         position: relative;
@@ -250,6 +255,16 @@ li a {
         padding: 30px;
     }
     
+    .top {
+        visibility: hidden;
+        display: none;    
+    }
+    footer nav{
+        visibility: visible;
+        display: inline;
+        position: absolute;
+        right: 2%
+    }
 }
 
 /*===================================*/
