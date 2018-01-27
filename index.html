@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <meta charset="utf-8"/>
         <link rel="stylesheet" href="style/style.css">
         <link rel="stylesheet" href="style/normalize.css">
         <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
@@ -9,11 +10,11 @@
         <title>Responsive Layout Website</title>
     </head>
     <body>
-        <div class="container">
-        <div class="main-header">
+        <div class="first-container group">
+            <div class="header group">
             <header>
             <h1>Barry Cherry</h1>
-                <nav id="nav">
+                <nav>
                 <ul>
                     <li><a href="#top">Home</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
@@ -21,77 +22,72 @@
                 </ul>
                 </nav>
             </header>
-        </div>
-    </div>
-        <div class="container">
-        <div class="main-content">
+                </div>
+
             <img src="images/responsive-layout-profile.png" alt="Profile Photo" >
-            <p class="main-p">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+            <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
         </div>
-    
-        <div class="second-container clearfix">
-        <div class="portfolio" id="portfolio">
+        
+        <div class="second-container portfolio group" id="portfolio">
+            
             <h1>Portfolio</h1>
             
-            <div class="port-1">
+            <div class="port-section port-1 left">
                 <img src="images/portfolio-1.png" alt="Marketing Page Photo">
                 <h2>Marketing Page</h2>
                 <p>This project shows the front page of a marketing website meant for a specific buisness I'm interested in.</p>
             </div>
             
-            <div class="port-2">
+            <div class="port-section port-2 right">
                 <img src="images/portfolio-2.png" alt="Search Page Photo">
                 <h2>Search Page</h2>
                 <p>This project searches through a specific database to find information that the user is trying to look up.</p>
             </div>
             
-            <div class="port-3">
+            <div class="port-section port-3 left">
                 <img src="images/portfolio-3.png" alt="Travel App Photo">
                 <h2>Travel App</h2>
                 <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
             </div> 
             
-            <div class="port-4">
+            <div class="port-section port-4 right ">
                 <img src="images/portfolio-4.png" alt="Map of Favorite Spots Photo">
                 <h2> Map of Favorite Spots</h2>
                 <p>This project uses mapping API's to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
             </div>
             
-            <div class="port-5">
+            <div class="port-section port-5 left">
                 <img src="images/portfolio-5.png" alt="Photo Gallery Photo">
                 <h2>Photo Gallery</h2>
                 <p>This project shows photos from a recent trip to the viewer and allows them to easily navigate through photos.</p>
             </div>
             
-            <div class="port-6">
+            <div class="port-section port-6 right">
                 <img src="images/portfolio-6.png" alt="Calculator photo">
                 <h2>Calculator</h2>
                 <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
             </div>    
         </div>
-    </div>       
-    <div class="contact" id="contact">
+ 
+    <div class="third-container contact" id="contact">
         <h1>Contact</h1>
         <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-        <p>Phone: <a href="#">+1(111)-555-1234</a></p>
-        <p>Email: <a href="#">email@yoursite.com</a></p>
+        <p>Phone: <a href="tel:+1-929-444-6185">1(929)-444-6185</a></p>
+        <p>Email: <a href="mailto:barrycherry1994@gmail.com?Subject=Hello%20there!">barrycherry1994@gmail.com</a></p>
     </div>
-    </div>
-    <div class="container">
-    <div class="main-footer">
+        
+        <div class="final-container group">
         <footer>
             <p class="student-name">Barry Cherry</p>
-        
             <p class="top"><a href="#top">Back To Top</a></p>
-            <nav id="footer-nav">
+                <nav>
                 <ul>
                     <li><a href="#top">Home</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 </nav>
-        </footer>
-    </div>
-    </div>
+            </footer>
+        </div>
     </body>
 </html>
